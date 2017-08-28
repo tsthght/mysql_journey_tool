@@ -16,6 +16,6 @@ PROJECT=main
 main: $(SRCS)
 	$(CXX) $(LDFLAGS) -o $(PROJECT) -L. $(LDLIBS) $(SRCS)
 clean:
-	$(RM) $(OBJS)
+	$(RM) $(PROJECT)
 all-clean: clean
 	$(RM) $(PROJECT)
